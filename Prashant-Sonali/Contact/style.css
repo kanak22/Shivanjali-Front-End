@@ -21,11 +21,14 @@ body {
     border-radius: 0;
 }
 
+
 /*map*/
+
 #map {
     width: 750px;
     height: 500px;
-  }
+}
+
 
 /*footer*/
 
@@ -173,4 +176,15 @@ p {
 
 .mar {
     margin-top: 90px;
+}
+
+#mapframe {
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 500px;
+}
+
+.but {
+    background-color: #5AB9EA;
 }
