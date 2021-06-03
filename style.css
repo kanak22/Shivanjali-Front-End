@@ -1,0 +1,26 @@
+body{
+    font-family:'Monserrat',sans-serif;
+    height: 100%;
+    margin-top: 50px;
+}
+.container{
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.4);
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:500px){
+    .container{
+        justify-content: center;
+    }
+    .description{
+        justify-content: center;
+        display: block;
+    }
+}
